@@ -107,7 +107,4 @@ Made with 💙 by [Lumi](https://github.com/your-username)
 
 ```
 
----
-
-
 ```
