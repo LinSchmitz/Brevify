@@ -108,9 +108,4 @@ npm run dev
 Made with ☕&❤️ by [Lin Schmitz](https://github.com/LinSchmitz)
 
 ```
-
----
-
-
-```
 ````
