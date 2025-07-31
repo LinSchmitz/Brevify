@@ -1,8 +1,3 @@
-حتماً Lumi! در ادامه نسخه‌ی به‌روز شده و کامل `README.md` برای پروژه‌ی شما با نام **Intelisum** آورده‌ام. فقط کافی‌ست آن را در فایل `README.md` خود جای‌گذاری کنی:
-
----
-
-````markdown
 <div align="center">
   <img src="https://your-image-url.com/logo.png" alt="Intelisum Logo" width="100" />
   <h1>Intelisum</h1>
@@ -67,6 +62,7 @@ npm install
 VITE_OPENAI_API_KEY=your_openai_key_here
 npm run dev
 ```
+
 ````
 
 ---
@@ -117,3 +113,4 @@ Made with ☕&❤️ by [Lin Schmitz](https://github.com/LinSchmitz)
 
 
 ```
+````
