@@ -62,3 +62,52 @@ npm install
 VITE_OPENAI_API_KEY=your_key_here
 npm run dev
 ```
+
+---
+
+## 📄 Prompt Design
+
+- Short:
+
+  > "Summarize the following text in 2–3 sentences: \[TEXT]"
+
+- Detailed:
+
+  > "Write a detailed summary of the following article in bullet points: \[TEXT]"
+
+---
+
+## 🤖 Example Summary
+
+> **Original Text:** Lorem ipsum dolor sit amet...
+>
+> **Short Summary:** A brief overview\...
+>
+> **Detailed Summary:**
+>
+> - Key point one
+> - Key point two
+
+---
+
+## 📢 Share & Feedback
+
+⭐ Star the repo if useful
+🔗 Share with friends
+📬 Feedback welcome!
+
+- [Twitter](https://twitter.com/yourhandle)
+- [LinkedIn](https://linkedin.com/in/yourprofile)
+
+---
+
+## 🧑‍💻 Author
+
+Made with 💙 by [Lumi](https://github.com/your-username)
+
+```
+
+---
+
+
+```
