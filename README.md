@@ -114,15 +114,17 @@ Made with ☕&❤️ by [Lin Schmitz](https://github.com/LinSchmitz)
 
 ```
 intelisum/
-├── .gitignore
-├── LICENSE
-├── README.md
 ├── public/
+│   └── index.html
 ├── src/
-│   ├── assets/
-│   ├── components/
-│   ├── hooks/
-│   └── pages/
-
-
+│   ├── App.jsx
+│   ├── main.jsx
+│   ├── style.css
+│   └── components/
+│       └── SummaryBox.jsx
+├── .env
+├── .gitignore
+├── README.md
+├── LICENSE
+└── vite.config.js
 ```
