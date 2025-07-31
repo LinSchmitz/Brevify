@@ -1,25 +1,30 @@
+حتماً Lumi! در ادامه نسخه‌ی به‌روز شده و کامل `README.md` برای پروژه‌ی شما با نام **Intelisum** آورده‌ام. فقط کافی‌ست آن را در فایل `README.md` خود جای‌گذاری کنی:
+
+---
+
+````markdown
 <div align="center">
-  <img src="https://your-image-url.com/logo.png" alt="Summurai Logo" width="100" />
-  <h1>Summurai</h1>
-  <p>⚔️ Cut through the noise. Summurai it — your AI-powered text summarizer built with OpenAI & React.</p>
-  <img src="https://your-image-url.com/preview.png" alt="Summurai Screenshot" width="100%" />
+  <img src="https://your-image-url.com/logo.png" alt="Intelisum Logo" width="100" />
+  <h1>Intelisum</h1>
+  <p>🧠 Smarter Summaries. Powered by AI. Intelisum is your intelligent, minimal text summarizer using OpenAI & React.</p>
+  <img src="https://your-image-url.com/preview.png" alt="Intelisum Screenshot" width="100%" />
 </div>
 
 ---
 
 ### ✨ Live Demo
 
-👉 [Try Summurai now](https://summurai.vercel.app)
+👉 [Try Intelisum now](https://intelisum.vercel.app)
 
 ---
 
 ## 🚀 Features
 
-- ⚔️ Summarize long texts into **brief or detailed summaries**
+- 🧠 Summarize long texts into **short or detailed outputs**
 - 🤖 Powered by **OpenAI GPT-3.5**
-- 🖌️ Clean UI with **TailwindCSS**
-- 📋 Copy-to-clipboard support
-- 💨 Blazing fast (Vite + React + Vercel)
+- 🎨 Clean, minimal UI using **TailwindCSS**
+- 📋 One-click copy-to-clipboard
+- ⚡ Built with **Vite + React** and deployed on **Vercel**
 
 ---
 
@@ -27,8 +32,8 @@
 
 1. Paste your text
 2. Choose summary type (short / detailed)
-3. Click **Summurai It**
-4. Get a clean, smart summary instantly
+3. Click **Summarize**
+4. Instantly receive a smart, concise summary
 
 ---
 
@@ -55,14 +60,13 @@
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/your-username/summurai.git
-cd summurai
+git clone https://github.com/your-username/intelisum.git
+cd intelisum
 npm install
 # Add your OpenAI key in .env
 VITE_OPENAI_API_KEY=your_openai_key_here
 npm run dev
 ```
-
 ````
 
 ---
@@ -97,20 +101,19 @@ npm run dev
 
 ⭐ Star the repo if you like it
 🧵 Share it with your dev friends
-📬 Pull requests, issues, and feedback welcome
+📬 Pull requests, issues, and suggestions are welcome
 
-- [Twitter](https://twitter.com/yourhandle)
-- [LinkedIn](https://linkedin.com/in/yourprofile)
+- [Twitter](https://x.com/LinSchmitz)
 
 ---
 
 ## 🧑‍💻 Author
 
-Made with 💙 by [Lumi](https://github.com/your-username)
+Made with ☕&❤️ by [Lin Schmitz](https://github.com/LinSchmitz)
 
 ```
 
 ---
 
+
 ```
-````
