@@ -1,34 +1,34 @@
 <div align="center">
-  <img src="https://your-image-url.com/logo.png" alt="SummarEase Logo" width="100" />
-  <h1>SummarEase</h1>
-  <p>A smart and minimal AI-powered text summarizer using OpenAI & React ⚡</p>
-  <img src="https://your-image-url.com/preview.png" alt="SummarEase Screenshot" width="100%" />
+  <img src="https://your-image-url.com/logo.png" alt="Summurai Logo" width="100" />
+  <h1>Summurai</h1>
+  <p>⚔️ Cut through the noise. Summurai it — your AI-powered text summarizer built with OpenAI & React.</p>
+  <img src="https://your-image-url.com/preview.png" alt="Summurai Screenshot" width="100%" />
 </div>
 
 ---
 
 ### ✨ Live Demo
 
-👉 [Try SummarEase now](https://summarease.vercel.app)
+👉 [Try Summurai now](https://summurai.vercel.app)
 
 ---
 
 ## 🚀 Features
 
-- 🔥 Summarize long texts into **short or detailed summaries**
-- 💬 Uses **OpenAI GPT-3.5**
-- 🎨 Responsive UI with **TailwindCSS**
-- 📋 Copy-to-clipboard
-- ⚡ Super-fast (Vite + Vercel)
+- ⚔️ Summarize long texts into **brief or detailed summaries**
+- 🤖 Powered by **OpenAI GPT-3.5**
+- 🖌️ Clean UI with **TailwindCSS**
+- 📋 Copy-to-clipboard support
+- 💨 Blazing fast (Vite + React + Vercel)
 
 ---
 
 ## 🧠 How It Works
 
 1. Paste your text
-2. Choose summary type
-3. Click **Summarize**
-4. Get condensed version instantly
+2. Choose summary type (short / detailed)
+3. Click **Summurai It**
+4. Get a clean, smart summary instantly
 
 ---
 
@@ -55,11 +55,11 @@
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/your-username/summarEase.git
-cd summarEase
+git clone https://github.com/your-username/summurai.git
+cd summurai
 npm install
 # Add your OpenAI key in .env
-VITE_OPENAI_API_KEY=your_key_here
+VITE_OPENAI_API_KEY=your_openai_key_here
 npm run dev
 ```
 
@@ -67,36 +67,37 @@ npm run dev
 
 ---
 
-## 📄 Prompt Design
+## 🧾 Prompt Design
 
-- Short:
+- **Short Summary**
 
-  > "Summarize the following text in 2–3 sentences: \[TEXT]"
+  > Summarize the following text in 2–3 sentences: \[TEXT]
 
-- Detailed:
+- **Detailed Summary**
 
-  > "Write a detailed summary of the following article in bullet points: \[TEXT]"
+  > Provide a detailed, bullet-point summary of this article: \[TEXT]
 
 ---
 
-## 🤖 Example Summary
+## ⚡ Example Output
 
 > **Original Text:** Lorem ipsum dolor sit amet...
 >
-> **Short Summary:** A brief overview\...
+> **Short Summary:** This article explains...
 >
 > **Detailed Summary:**
 >
-> - Key point one
-> - Key point two
+> - Point A
+> - Point B
+> - Point C
 
 ---
 
-## 📢 Share & Feedback
+## 💬 Feedback & Sharing
 
-⭐ Star the repo if useful
-🔗 Share with friends
-📬 Feedback welcome!
+⭐ Star the repo if you like it
+🧵 Share it with your dev friends
+📬 Pull requests, issues, and feedback welcome
 
 - [Twitter](https://twitter.com/yourhandle)
 - [LinkedIn](https://linkedin.com/in/yourprofile)
@@ -109,6 +110,7 @@ Made with 💙 by [Lumi](https://github.com/your-username)
 
 ```
 
+---
 
 ```
 ````
