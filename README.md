@@ -1,15 +1,15 @@
 <div align="center">
-  <img src="https://your-image-url.com/logo.png" alt="Brevify Logo" width="100" />
-  <h1>Brevify</h1>
+  <img src="https://your-image-url.com/logo.png" alt="SummarEase Logo" width="100" />
+  <h1>SummarEase</h1>
   <p>A smart and minimal AI-powered text summarizer using OpenAI & React ⚡</p>
-  <img src="https://your-image-url.com/preview.png" alt="Brevify Screenshot" width="100%" />
+  <img src="https://your-image-url.com/preview.png" alt="SummarEase Screenshot" width="100%" />
 </div>
 
 ---
 
 ### ✨ Live Demo
 
-👉 [Try Brevify now](https://brevify.vercel.app)
+👉 [Try SummarEase now](https://summarease.vercel.app)
 
 ---
 
@@ -55,13 +55,15 @@
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/your-username/brevify.git
-cd brevify
+git clone https://github.com/your-username/summarEase.git
+cd summarEase
 npm install
 # Add your OpenAI key in .env
 VITE_OPENAI_API_KEY=your_key_here
 npm run dev
 ```
+
+````
 
 ---
 
@@ -107,4 +109,6 @@ Made with 💙 by [Lumi](https://github.com/your-username)
 
 ```
 
+
 ```
+````
