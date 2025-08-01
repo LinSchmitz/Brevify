@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./img/logo.jpg" alt="Intelisum Logo" width="40" />
+<img src="/img/logo.jpg" alt="Intelisum Logo" width="40" /> 
   <h1>Intelisum</h1>
    <h3>Don’t read it all. Intelisum it</h3>
 
@@ -40,7 +40,7 @@
 
 <table>
   <tr>
-    <td><img src="ublic/img/1.jpg" width="100%"/></td> 
+    <td><img src="public/img/1.jpg" width="100%"/></td> 
   </tr>
 </table>
 
