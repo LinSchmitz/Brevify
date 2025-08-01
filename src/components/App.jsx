@@ -7,10 +7,12 @@ function App() {
   const [summary, setSummary] = useState('');
   const [loading, setLoading] = useState(false);
   const [type, setType] = useState('short');
+  const [copied, setCopied] = useState(false);
 
   async function handleSummarize() {
     if (!input) return;
     setLoading(true);
+    setCopied(false);
     try {
       const prompt =
         type === 'short'
@@ -44,6 +46,15 @@ function App() {
     setLoading(false);
   }
 
+  function handleCopy() {
+    if (!summary) return;
+
+    navigator.clipboard.writeText(summary).then(() => {
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000); // بعد ۲ ثانیه آیکون دوباره برمیگرده
+    });
+  }
+
   return (
     <div className="container">
       <h1>Intelisum 🧠</h1>
@@ -62,7 +73,12 @@ function App() {
         {loading ? 'Summarizing...' : 'Summarize'}
       </button>
       {summary && (
-        <div style={{ marginTop: '2rem', whiteSpace: 'pre-wrap' }}>
+        <div className="summary-box">
+          <button
+            onClick={handleCopy}
+            className={`copy-button ${copied ? 'copied' : ''}`}
+            title="Copy to clipboard"
+          />
           <h3>🧾 Summary:</h3>
           <p>{summary}</p>
         </div>
