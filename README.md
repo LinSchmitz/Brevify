@@ -1,17 +1,11 @@
 <div align="center">
-<img src="/img/logo.jpg" alt="Intelisum Logo" width="40" /> 
+<img src="public/img/logo.jpg" alt="Intelisum Logo" width="40" /> 
   <h1>Intelisum</h1>
    <h3>Don’t read it all. Intelisum it</h3>
 
   <p>🧠 Smarter Summaries. Powered by AI. Intelisum is your intelligent, minimal text summarizer using OpenAI & React.</p>
   <img src="https://your-image-url.com/preview.png" alt="Intelisum Screenshot" width="100%" />
 </div>
-
----
-
-### ✨ Live Demo
-
-👉 [Try Intelisum now](https://intelisum.vercel.app)
 
 ---
 
@@ -35,8 +29,6 @@
 ---
 
 ## 📸 Screenshot
-
-![alt text](public/img/1.jpg)
 
 <table>
   <tr>
