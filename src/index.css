@@ -113,7 +113,7 @@ select {
   content: '✔️';
 }
 
-/*******footer ******/
+/*   footer  */
 
 footer {
   display: flex;
@@ -142,3 +142,5 @@ a {
 .copyright {
   font-size: 0.8rem;
 }
+
+/*      */
