@@ -34,12 +34,13 @@
 
 ---
 
-## 📸 Screenshots
+## 📸 Screenshot
+
+![alt text](public/img/1.jpg)
 
 <table>
   <tr>
-    <td><img src="https://your-image-url.com/ss1.png" width="100%"/></td>
-    <td><img src="https://your-image-url.com/ss2.png" width="100%"/></td>
+    <td><img src="ublic/img/1.jpg" width="100%"/></td> 
   </tr>
 </table>
 
