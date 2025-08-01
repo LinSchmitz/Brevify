@@ -10,6 +10,12 @@
   --shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: var(--font-main);
   background-color: var(--color-bg);
@@ -29,12 +35,15 @@ body {
 
 textarea {
   width: 100%;
+  max-width: 100%;
   min-height: 150px;
   padding: 1rem;
   font-size: 1rem;
   border-radius: var(--radius);
   border: 1px solid var(--color-border);
   resize: vertical;
+  overflow: auto;
+  font-family: var(--font-main);
 }
 
 button {
@@ -68,7 +77,6 @@ select {
   white-space: pre-wrap;
 }
 
-/* 🔘 آیکون کپی */
 .copy-button {
   position: absolute;
   top: 10px;
@@ -82,21 +90,14 @@ select {
   color: #666;
 }
 
-.copy-button:hover {
-  opacity: 1;
-}
-
-/* ✅ وقتی کپی شد */
 .copy-button.copied::after {
-  content: '✅';
+  content: '✔️';
 }
 
-/* 📄📄 آیکون پیش‌فرض */
 .copy-button::after {
   content: '📄';
 }
 
-/* وقتی copied اضافه بشه، این آیکون جایگزین می‌شه */
 .copy-button.copied::after {
-  content: '✅';
+  content: '✔️';
 }

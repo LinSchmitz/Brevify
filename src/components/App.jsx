@@ -51,7 +51,7 @@ function App() {
 
     navigator.clipboard.writeText(summary).then(() => {
       setCopied(true);
-      setTimeout(() => setCopied(false), 2000); // بعد ۲ ثانیه آیکون دوباره برمیگرده
+      setTimeout(() => setCopied(false), 2000);
     });
   }
 

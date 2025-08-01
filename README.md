@@ -128,3 +128,5 @@ intelisum/
 ├── LICENSE
 └── vite.config.js
 ```
+
+https://openrouter.ai/settings/keys
