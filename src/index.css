@@ -24,6 +24,17 @@ body {
   color: var(--color-text);
 }
 
+header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+img {
+  width: 40px;
+  cursor: pointer;
+}
+
 .container {
   max-width: 720px;
   margin: auto;

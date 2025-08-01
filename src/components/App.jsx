@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const apiKey = import.meta.env.VITE_OPENROUTER_API_KEY;
 
-function App() {
+export default function App() {
   const [input, setInput] = useState('');
   const [summary, setSummary] = useState('');
   const [loading, setLoading] = useState(false);
@@ -57,7 +57,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>Intelisum 🧠</h1>
+      <Header />
       <textarea
         value={input}
         onChange={e => setInput(e.target.value)}
@@ -87,4 +87,11 @@ function App() {
   );
 }
 
-export default App;
+function Header() {
+  return (
+    <header>
+      <img src="./img/logo.jpg" alt="logo" />
+      <h1>Intelisum</h1>
+    </header>
+  );
+}
