@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./img/logo.png" alt="Intelisum Logo" width="40" />
+  <img src="./img/logo.jpg" alt="Intelisum Logo" width="40" />
   <h1>Intelisum</h1>
    <h3>Don’t read it all. Intelisum it</h3>
 
