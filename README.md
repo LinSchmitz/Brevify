@@ -4,8 +4,7 @@
    <h3>Don’t read it all. Intelisum it</h3>
 
   <p>🧠 Smarter Summaries. Powered by AI. Intelisum is your intelligent, minimal text summarizer using OpenAI & React.</p>
-  <img src="https://your-image-url.com/preview.png" alt="Intelisum Screenshot" width="100%" />
-</div>
+ </div>
 
 ---
 
