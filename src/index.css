@@ -112,3 +112,33 @@ select {
 .copy-button.copied::after {
   content: '✔️';
 }
+
+/*******footer ******/
+
+footer {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.social-div {
+  justify-content: space-around;
+  line-height: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+.icons {
+  transition: transform 0.3s ease-in-out;
+}
+
+.icons:hover {
+  transform: rotate(360deg) scale(1.2);
+  fill: var(--blue-catchy);
+}
+
+.copyright {
+  font-size: 0.8rem;
+}
