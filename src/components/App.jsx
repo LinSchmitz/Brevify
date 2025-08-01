@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-// const VITE_OPENAI_API_KEY = sk - XXXXXXXXXXXXXXXXXXXXXXXX;
+const apiKey = import.meta.env.VITE_OPENROUTER_API_KEY;
 
 function App() {
   const [input, setInput] = useState('');
@@ -14,19 +14,18 @@ function App() {
     try {
       const prompt =
         type === 'short'
-          ? `Summarize this text in 2–3 sentences:\n\n${input}`
+          ? `Summarize this text in 2,3 sentences:\n\n${input}`
           : `Provide a detailed bullet-point summary of the following:\n\n${input}`;
 
-      const res = await fetch('https://api.openai.com/v1/chat/completions', {
+      const res = await fetch('https://openrouter.ai/api/v1/chat/completions', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          Authorization: `Bearer ${import.meta.env.VITE_OPENAI_API_KEY}`,
+          Authorization: `Bearer ${apiKey}`,
         },
         body: JSON.stringify({
-          model: 'gpt-3.5-turbo',
+          model: 'openai/gpt-3.5-turbo',
           messages: [{ role: 'user', content: prompt }],
-          temperature: 0.7,
         }),
       });
 
