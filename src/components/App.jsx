@@ -1,12 +1,22 @@
 import React, { useState } from 'react';
+import { Header } from './Header';
 
 const apiKey = import.meta.env.VITE_OPENROUTER_API_KEY;
 
 export default function App() {
+  return (
+    <div className="container">
+      <Header />
+      <Main />
+    </div>
+  );
+}
+
+function Main() {
   const [input, setInput] = useState('');
+  const [type, setType] = useState('short');
   const [summary, setSummary] = useState('');
   const [loading, setLoading] = useState(false);
-  const [type, setType] = useState('short');
   const [copied, setCopied] = useState(false);
 
   async function handleSummarize() {
@@ -56,8 +66,7 @@ export default function App() {
   }
 
   return (
-    <div className="container">
-      <Header />
+    <main>
       <textarea
         value={input}
         onChange={e => setInput(e.target.value)}
@@ -83,15 +92,6 @@ export default function App() {
           <p>{summary}</p>
         </div>
       )}
-    </div>
-  );
-}
-
-function Header() {
-  return (
-    <header>
-      <img src="./img/logo.jpg" alt="logo" />
-      <h1>Intelisum</h1>
-    </header>
+    </main>
   );
 }

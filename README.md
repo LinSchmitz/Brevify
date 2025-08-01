@@ -110,7 +110,6 @@ intelisum/
 │   └── index.html
 ├── src/
 │   ├── App.jsx
-│   ├── main.jsx
 │   ├── style.css
 │   └── components/
 │       └── SummaryBox.jsx
